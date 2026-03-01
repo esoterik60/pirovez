@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Učitavanje Google Fontova */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Tipografija naslova */
+h1, h2, h3, .logo-font {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Custom boje za Pirotski stil - Možeš ih menjati direktno ovde ako zatreba */
+.bg-pirot-red { 
+    background-color: #991B1B; 
+}
+.text-pirot-red { 
+    color: #991B1B; 
+}
+.border-pirot-red {
+    border-color: #991B1B;
+}
+
+.bg-pirot-gold { 
+    background-color: #D4AF37; 
+}
+.text-pirot-gold { 
+    color: #D4AF37; 
+}
+.border-pirot-gold {
+    border-color: #D4AF37;
+}
+
+.bg-pirot-blue { 
+    background-color: #0B192C; 
+}
